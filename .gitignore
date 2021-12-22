@@ -21,7 +21,6 @@ scripts/output/*
 *.pem
 !.creds/rds-combined-ca-bundle.pem
 *.key
-requirements.txt
 aws.json
 poetry.lock
 .aws.env

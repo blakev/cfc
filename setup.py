@@ -21,6 +21,10 @@ setuptools.setup(
     author="Blake VandeMerwe",
     author_email='blakev@null.net',
     license='MIT',
+    url='https://github.com/blakev/cfc',
+    project_urls={
+        'Bug Tracker': 'https://github.com/blakev/cfc/issues',
+    },
     description='Small utility to keep cache folders under control',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -32,8 +36,16 @@ setuptools.setup(
     include_package_data=True,
     install_requires=requirements,
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "License :: OSI Approved :: MIT License",
+        "Operating System :: POSIX",
+        "Environment :: Console",
+        "Intended Audience :: Developers",
+        "Natural Language :: English",
+        "Typing :: Typed",
     ],
 )

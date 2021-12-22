@@ -16,7 +16,7 @@ with open('requirements.txt', 'r') as fp:
 
 setuptools.setup(
     name='cfc',
-    version='0.1.0',
+    version='0.1.1',
     python_requires=">=3.8",
     author="Blake VandeMerwe",
     author_email='blakev@null.net',
